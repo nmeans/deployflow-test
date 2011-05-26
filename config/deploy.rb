@@ -17,7 +17,7 @@ role :db,  "your slave db-server here"
 
 namespace :deploy do
   task :update_code do
-    abort "Don't actually do anything. We're just testing!"
+    abort "Don't actually do anything. We're just testing!\nBut if we were, #{branch} would've been deployed."
   end
 end
 
